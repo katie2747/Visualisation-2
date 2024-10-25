@@ -1,0 +1,66 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 340,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/katie2747/FIT3179-test-publishing/refs/heads/main/SA2_2016_AUST.topojson",
+      "format": {"type": "topojson", "feature": "SA2_2016_AUST"}
+    },
+    "projection": {
+      "type": "equirectangular",
+      "center": [133, -27],
+      "scale": 460
+    },
+    "layer": [
+      {
+        "transform": [
+          {
+            "calculate": "'Data is not available' + (datum.properties && datum.properties.SA2_MAIN16 ? ' in ' + datum.properties.SA2_MAIN16 : '')",
+            "as": "SA2_MAIN16"
+          }
+        ],
+        "mark": {"type": "geoshape", "fill": "black", "stroke": "black"},
+        "encoding": {"tooltip": {"field": "SA2_MAIN16"}}
+      },
+      {
+        "transform": [
+          {
+            "lookup": "properties.SA2_MAIN16",
+            "from": {
+              "data": {
+                  "url": "https://raw.githubusercontent.com/katie2747/FIT3179-test-publishing/refs/heads/main/data/bussinesses%20and%20gross%20value%20csv.csv"
+              },
+              "key": "SA2_MAIN16",
+              "fields": ["Region label", "gross value", "businesses"]
+            },
+            "as": ["Region label", "gross value", "businesses"]
+  
+          }
+        ],
+        "mark": {"type": "geoshape"},
+        "encoding": {
+          "color": {
+            "field": "businesses",
+            "type": "quantitative",
+            "scale": {
+              "scheme": "yelloworangebrown"
+            }
+          },
+          "tooltip": [
+        {"field": "properties.SA2_NAME16", "type": "nominal", "title": "Region"},
+        {"field": "businesses", "type": "quantitative", "title": "No. Businesses"}
+        ]
+        }
+      }
+      
+    ],
+    "background": "#f2e2e000",
+    "config": {
+      "legend": {"disable": true},
+      "style": {
+        "cell": {
+          "stroke": "transparent"
+        }
+      }
+    }
+  }

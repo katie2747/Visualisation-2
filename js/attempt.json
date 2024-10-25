@@ -1,0 +1,171 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 250,
+    "height": 250,
+    "data": {"url": "data/land use.csv"},
+    "layer": [
+      {
+        "mark": {"type": "rect"},
+        "encoding": {
+          "x": {
+            "field": "section",
+            "type": "ordinal",
+            "axis": null
+          },
+          "y": {
+            "aggregate": "count",
+            "type": "quantitative",
+            "axis": null
+          },
+          "color": {
+            "field": "landuse",
+            "type": "nominal",
+            "scale": {
+              "domain": ["grazing", "conservation", "other", "cropland", "grazing (modified)", "forestry", "urban"],
+              "range": ["#e7ba52", "#8c8c8c", "#ebd26a", "#1f77b4", "#7ea6dc", "#1234ab", "#ffac33"]
+            },
+            "legend": {
+              "orient": "left",
+              "direction": "vertical",
+              "title": "Land Use",
+              "offset": 10
+            }
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 0,  
+          "dy": 0,  
+          "fontSize": 10,
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "text": {"value": ["45%"]}, 
+          "color": {"value": "white"},   
+          "x": {"value": 20},               
+          "y": {"value": 100}              
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 0,  
+          "dy": 0,  
+          "fontSize": 10,
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "text": {"value": ["4%"]}, 
+          "color": {"value": "white"},   
+          "x": {"value": 200},               
+          "y": {"value": 50}              
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 0,  
+          "dy": 0,  
+          "fontSize": 10,
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "text": {"value": ["0.2%"]}, 
+          "color": {"value": "white"},   
+          "x": {"value": 200},               
+          "y": {"value": 18}              
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 0,  
+          "dy": 0,  
+          "fontSize": 10,
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "text": {"value": ["2%"]}, 
+          "color": {"value": "white"},   
+          "x": {"value": 160},               
+          "y": {"value": 5}              
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 0,  
+          "dy": 0,  
+          "fontSize": 10,
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "text": {"value": ["9%"]}, 
+          "color": {"value": "white"},   
+          "x": {"value": 110},               
+          "y": {"value": 50}              
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 0,  
+          "dy": 0,  
+          "fontSize": 10,
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "text": {"value": ["23%"]}, 
+          "color": {"value": "white"},   
+          "x": {"value": 110},               
+          "y": {"value": 150}              
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "middle",
+          "dx": 0,  
+          "dy": 0,  
+          "fontSize": 10,
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "text": {"value": ["17%"]}, 
+          "color": {"value": "white"},   
+          "x": {"value": 200},               
+          "y": {"value": 150}              
+        }
+      }
+    ],
+    "background": "#f2e2e000",
+    "config": {
+      "legend": {
+        "orient": "left",
+        "labelColor": "white",
+        "labelFontSize": 10,
+        "titleOpacity": 0
+      },
+      "style": {
+        "cell": {
+          "stroke": "transparent"
+        }
+      }
+    }
+  }
+  
