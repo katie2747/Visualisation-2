@@ -1,0 +1,390 @@
+section,landuse
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+0,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+2,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+1,grazing
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+3,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+4,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+5,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+6,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,forestry
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+7,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+6,urban
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+3,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+4,grazing (modified)
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+3,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+4,conservation
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+6,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+7,cropland
+6,other
+6,other
+6,other
+6,other
+6,other
+6,other
+6,other
+6,other
+6,other
+6,other
+6,other
+6,other
+6,other
+7,other
+7,other
+7,other
+7,other
+7,other
+7,other
+7,other
+7,other
+7,other
+7,other
+7,other
+7,other
+7,other
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,grazing (modified)
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
+5,conservation
