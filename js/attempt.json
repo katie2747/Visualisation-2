@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 250,
     "height": 250,
-    "data": {"url": "data/land use.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/katie2747/Visualisation-2/refs/heads/main/data/land%20use.csv"},
     "layer": [
       {
         "mark": {"type": "rect"},
